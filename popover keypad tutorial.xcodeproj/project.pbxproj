@@ -14,6 +14,7 @@
 		776310FF1ED5E2DF0068E28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776310FD1ED5E2DF0068E28F /* LaunchScreen.storyboard */; };
 		7763110A1ED5E2DF0068E28F /* popover_keypad_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776311091ED5E2DF0068E28F /* popover_keypad_tutorialTests.swift */; };
 		776311151ED5E2DF0068E28F /* popover_keypad_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776311141ED5E2DF0068E28F /* popover_keypad_tutorialUITests.swift */; };
+		776311231ED5E3860068E28F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776311221ED5E3860068E28F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		776311101ED5E2DF0068E28F /* popover keypad tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "popover keypad tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		776311141ED5E2DF0068E28F /* popover_keypad_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popover_keypad_tutorialUITests.swift; sourceTree = "<group>"; };
 		776311161ED5E2DF0068E28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776311221ED5E3860068E28F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 			children = (
 				776310F41ED5E2DF0068E28F /* AppDelegate.swift */,
 				776310F61ED5E2DF0068E28F /* ViewController.swift */,
-				776310F81ED5E2DF0068E28F /* Main.storyboard */,
-				776310FB1ED5E2DF0068E28F /* Assets.xcassets */,
-				776310FD1ED5E2DF0068E28F /* LaunchScreen.storyboard */,
 				776311001ED5E2DF0068E28F /* Info.plist */,
+				776310FB1ED5E2DF0068E28F /* Assets.xcassets */,
+				776310F81ED5E2DF0068E28F /* Main.storyboard */,
+				776311221ED5E3860068E28F /* MainViewController.swift */,
+				776310FD1ED5E2DF0068E28F /* LaunchScreen.storyboard */,
 			);
 			path = "popover keypad tutorial";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776311231ED5E3860068E28F /* MainViewController.swift in Sources */,
 				776310F71ED5E2DF0068E28F /* ViewController.swift in Sources */,
 				776310F51ED5E2DF0068E28F /* AppDelegate.swift in Sources */,
 			);
